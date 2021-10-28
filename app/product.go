@@ -112,3 +112,7 @@ func (p *Product) GetName() string {
 func (p *Product) GetStatus() string {
 	return p.Status
 }
+
+func (p *Product) GetPrice() float64 {
+	return p.Price
+}
