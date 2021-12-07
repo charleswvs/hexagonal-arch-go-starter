@@ -1,4 +1,9 @@
 # Hexagonal structure with GO
 
-## Mocks with go
+## Tests with go
 
+### Generating mocks with mockgen
+
+```shell
+mockgen -destination=app/mocks/app.go -source=app/product.go app 
+```
